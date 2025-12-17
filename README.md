@@ -37,10 +37,12 @@ After training on ~370,000 clean data points, **Random Forest** achieved the bes
 
 ## 📂 Project Structure
 
+```text
 Project/
 ├── data/
-│ ├── raw/ # Raw CSVs from NASA
-│ ├── processed/ # Parquet files (Chunks & Final)
-├── notebooks/ # Jupyter Notebooks (Step-by-step)
-├── src/ # Source scripts
+│   ├── raw/        # Raw CSVs from NASA
+│   └── processed/  # Parquet files (Chunks & Final)
+├── notebooks/      # Jupyter Notebooks (Step-by-step)
+├── src/            # Source scripts
 └── README.md
+
